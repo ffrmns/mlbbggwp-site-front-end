@@ -48,6 +48,7 @@ main {
     padding: 22px;
     background-color: #9fc088;
 }
+
 #content {
     float: left;
     width: 75%;
@@ -59,6 +60,33 @@ main {
     margin-top: 20px;
     padding: 20px;
     background-color: #cc704b;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+ul.flex-container-row {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li.card {
+    list-style-type: none;
+    background-color: #9fc088;
+    margin: 10px;
+    padding: 40px 20px;
+}
+
+li.card a {
+    text-decoration: none;
+}
+
+li.card:hover {
+    background-color: #8fb078;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 h2 {
