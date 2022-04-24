@@ -1,5 +1,3 @@
-let dropped = false;
-
 function toggleDropdown(id) {
     document.querySelector("#" + id + ' .dropdown-content').classList.toggle("show");
 }
