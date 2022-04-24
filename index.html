@@ -1,73 +1,82 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>MLBB GGWP</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/styles/style.css">
-    </head>
-    <body>
-        <header>
-            <div id="jumbotron">
-                <h1>MLBB GGWP</h1>
-                <p>Full power to the top!</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#shop">Diamond shop</li>
-                    <li><a href="#tutorial">Tutorial</a></li>
+<head>
+    <title>MLBB GGWP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <div id="jumbotron">
+            <h1>MLBB GGWP</h1>
+            <p>Full power to the top!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#shop">Diamond shop</a></li>
+                <li class="button dropdown" id="list-dropdown">
+                    <a href="#tutorial">Belerick Tutorial</a>
+                    <div class="dropdown-content">
+                        <a href="#build">Build</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="shop" class="card">
+                <h2>Diamond shop</h2>
+                <p>Let's checkout.</p>
+                <ul class="flex-container-row">
+                    <li class="card"><a href="#">10 diamond</a></li>
+                    <li class="card"><a href="#">20 diamond</a></li>
+                    <li class="card"><a href="#">30 diamond</a></li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <div id="content">
-                <article id="shop" class="card">
-                    <h2>Diamond shop</h2>
-                    <p>Let's checkout.</p>
-                    <ul class="flex-container-row">
-                        <li class="card"><a href="#">10 diamond</a></li>
-                        <li class="card"><a href="#">20 diamond</a></li>
-                        <li class="card"><a href="#">30 diamond</a></li>
-                    </ul>
-                </article>
-                <article id="tutorial" class="card">
-                    <h2>Tutorial</h2>
-                    <img src="assets/image/build.jpg" class="featured-image">
-                    <p>Belerick is a nice to play hero. He have the passive skill that is enough to counter fighter and marksman. He can run with his second skill. Ultimate and first skill will give damage and slow.</p>
+            </article>
+            <article id="tutorial" class="card">
+                <h2>Belerick Tutorial</h2>
+                <img src="assets/image/build.jpg" class="featured-image">
+                <p>Belerick is a nice to play hero. He have the passive skill that is enough to counter fighter and marksman. He can run with his second skill. Ultimate and first skill will give damage and slow.</p>
+                <section id="build">
+                    <h3>Build</h3>
                     <p>As usual, it needs the tank builds. If the enemy has no magical damage, don't buy magical defense items. Usually, my physical defense item is assault cuirass, beccause it will reduce the attacker damage. Also, it's nice to have blade armor so the enemies basic attack will bounced back to them.</p>
-                </article>
-            </div>
-            <aside>
-                <article class="profile card">
-                    <header>
-                        <h2>My Profile</h2>
-                        <p>Hello, my name is Fikri Firmansyah Akbar, call me Fikri! I like scrolling on social media and play mlbb.</p>
-                        <figure>
-                            <img src="assets/image/profile.jpg">
-                            <figcaption>It's me.</figcaption>
-                        </figure>
-                    </header>
-                    <section>
-                        <h3>My MLBB</h3>
-                        <table>
-                            <tr>
-                                <th>Country</th>
-                                <td>Indonesia</td>
-                            </tr>
-                            <tr>
-                                <th>Role</th>
-                                <td>Tank</td>
-                            </tr>
-                            <tr>
-                                <th>Favorite hero</th>
-                                <td>Belerick</td>
-                            </tr>
-                        </table>
-                    </section>
-                </article>
-            </aside>
-        </main>
-        <footer>
-            This page was created by myself looking at the example in the dicoding and the random internet posts.
-        </footer>
-    </body>
+                </section>
+            </article>
+        </div>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>My Profile</h2>
+                    <p>Hello, my name is Fikri Firmansyah Akbar, call me Fikri! I like scrolling on social media and play mlbb.</p>
+                    <figure>
+                        <img src="assets/image/profile.jpg">
+                        <figcaption>It's me.</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>My MLBB</h3>
+                    <table>
+                        <tr>
+                            <th>Country</th>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <th>Role</th>
+                            <td>Tank</td>
+                        </tr>
+                        <tr>
+                            <th>Favorite hero</th>
+                            <td>Belerick</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        This page was created by myself looking at the example in the dicoding and googled internet posts.
+    </footer>
+    <script src="assets/js/dropdown.js"></script>
+</body>
 </html>
